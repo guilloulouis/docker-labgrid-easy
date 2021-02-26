@@ -1,6 +1,5 @@
 default-group:
   location: default
-  NetworkSerialPort:
-    host: exporter
-    port: 3001
+  RawSerialPort:
+    port: '/dev/tty0'
     speed: 115200

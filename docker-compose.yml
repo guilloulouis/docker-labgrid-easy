@@ -27,12 +27,12 @@ services:
     stdin_open: true
     privileged: true
 
-networks:
-  labgrid_net:
-    driver: bridge
-    driver_opts:
-      com.docker.network.bridge.name: labgrid_bridge
-    ipam:
-      driver: default
-      config:
-        - subnet:  127.0.0.1/24
+#networks:
+#  labgrid_net:
+#    driver: bridge
+#    driver_opts:
+#      com.docker.network.bridge.name: labgrid_bridge
+#    ipam:
+#      driver: default
+#      config:
+#        - subnet:  127.0.0.1/24
